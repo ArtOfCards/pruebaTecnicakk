@@ -1,0 +1,20 @@
+:root{
+    --color-primario-claro:#E5DECA;
+    --color-primario-oscuro :#ccc5b4;
+    --color-secundario-claro:  #A6a092;
+    --color-secundario-oscuro: #66635A;
+    --color-fondo : #f2ead5;
+    --fuente-texto :ExtraLight 200;
+    --fuente-titulos:Medium 500 Italic;
+    
+}
+body{
+    margin:0;
+    background-color: var(--color-fondo);
+}
+
+#Titulo{
+    color: var(--color-secundario-claro);
+    font-family: var(--fuente-titulos);
+    font-size: 80px;
+}
