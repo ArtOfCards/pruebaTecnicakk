@@ -13,8 +13,32 @@ body{
     background-color: var(--color-fondo);
 }
 
+/* inicio del titulo */
+
 #Titulo{
-    color: var(--color-secundario-claro);
+    color: var(--color-fondo);
     font-family: var(--fuente-titulos);
     font-size: 80px;
+    background-color:var(--color-secundario-oscuro);
+    margin: 20px 20px 20px 20px;
+    padding: 50px 25px 20px 70px;
+    border-radius: 0.3rem;
 }
+
+#intro{
+   color: var(--color-primario-claro);
+   font-family: var(--fuente-texto);
+   font-size: medium;
+   float: right;
+   position :relative;
+   top: 420px;
+ 
+
+}
+
+#imgtitulo{
+    padding: 100px 1px 1px 0px;
+    width: 370px;
+    height: 370px;
+}
+ /*fin del titulo*/
