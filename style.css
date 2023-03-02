@@ -42,3 +42,67 @@ body{
     height: 370px;
 }
  /*fin del titulo*/
+
+ /* inicio tabla */
+
+ table{
+    padding: 10px 0px 20px 20px;
+    width :60%;
+    text-align: center;
+
+
+ }
+
+ th, td {
+  
+
+    padding: 10px 10px 10px 10px;
+    color:var(--color-secundario-claro);
+    font-family: var(--fuente-titulos);
+    font-size: 15px;
+    text-decoration: underline;
+
+ }
+.tituloTabla{
+
+    color:var(--color-secundario-oscuro);
+    font-family: var(--fuente-titulos);
+    font-size: 40px;
+    text-decoration:none;
+    
+
+}
+
+.descripcionTabla{
+
+    text-align: left;
+    color:var(--color-secundario-claro);
+    font-family: var(--fuente-texto);
+    font-size: 20px;   
+    text-decoration:none;
+    border-style:hidden hidden solid hidden ;
+
+}
+ tr:hover {
+    cursor: pointer;
+    
+ }
+
+ #video{
+
+    float: right;
+    position :relative;
+    top: 220px;
+    right: 70px;
+ }
+ #recomendacion{
+    float: right;
+    position :relative;
+    top: 150px;
+    right: 120px;
+    color:var(--color-secundario-oscuro);
+    font-family: var(--fuente-texto);
+    font-size: 15px;   
+    text-decoration:overline;
+
+ }
