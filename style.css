@@ -4,13 +4,19 @@
     --color-secundario-claro:  #A6a092;
     --color-secundario-oscuro: #66635A;
     --color-fondo : #f2ead5;
-    --fuente-texto :ExtraLight 200;
-    --fuente-titulos:Medium 500 Italic;
+    --fuente-texto : 'Bitter';
+    --fuente-titulos: 'Bitter' Medium 500 Italic;
     
 }
 body{
     margin:0;
     background-color: var(--color-fondo);
+}
+
+p{
+    font-family:var(--fuente-texto);
+    line-height: 20px;
+    font-weight: bolder;
 }
 
 /* inicio del titulo */
@@ -32,6 +38,7 @@ body{
    float: right;
    position :relative;
    top: 420px;
+   font-weight:normal;
  
 
 }
@@ -46,7 +53,7 @@ body{
  /* inicio tabla */
 
  table{
-    padding: 10px 0px 20px 20px;
+    padding: 80px 0px 20px 20px;
     width :60%;
     text-align: center;
 
@@ -61,6 +68,9 @@ body{
     font-family: var(--fuente-titulos);
     font-size: 15px;
     text-decoration: underline;
+    font-weight: bold;
+
+    
 
  }
 .tituloTabla{
@@ -72,6 +82,19 @@ body{
     
 
 }
+.tituloTabla a:hover{
+
+    color:black;
+
+}
+
+.tituloTabla a{
+
+    transition: color 0.4 ease;
+    color:var(--color-secundario-oscuro);
+    text-decoration: none;
+
+ }
 
 .descripcionTabla{
 
@@ -88,21 +111,103 @@ body{
     
  }
 
+ /* fin de la tabla*/
+
+ /* inicio video*/
  #video{
 
     float: right;
     position :relative;
-    top: 220px;
+    top: 520px;
     right: 70px;
  }
  #recomendacion{
     float: right;
     position :relative;
-    top: 150px;
-    right: 120px;
+    top: 300px;
+    right: 100px;
     color:var(--color-secundario-oscuro);
     font-family: var(--fuente-texto);
     font-size: 15px;   
     text-decoration:overline;
+ }
+ /* fin video*/
 
+ /* inicio historias*/
+ #imgHistoria1{
+    position :relative;
+    top: 0px;
+    left: 60px;
+    bottom: 100px;
+
+    width: 500px;
+    height: 500px;
+    
+
+ }
+
+ h3{
+    color:black;
+    font-family: var(--fuente-titulos);
+    font-size: 50px;
+
+ }
+ #tituloHistoria1{
+
+    position :relative;
+    left: 650px;
+    top:350px;
+    margin: 0px;
+    width: 200px;
+
+
+ }
+
+ #textoHistoria1{
+    font-size: 20px;
+    width: 600px;
+ 
+    border:0px;
+    position: relative;
+    left: 650px;
+    top: 420px;
+    border-style:hidden hidden solid hidden ;
+
+ }
+
+ .deco{
+    position: relative;
+    background:black;
+    width: 550px; 
+    height: 2px; 
+    background:var(--color-secundario-oscuro);
+    left: 670px; 
+    
+ }
+
+ /*-------------------------------------------*/
+
+
+
+ /* footer */
+
+ footer{
+    background-color: #57544c;
+    padding:3rem;
+    color:beige;
+ }
+ footer div{
+    float: right;
+ }
+ footer p{
+    margin:0;
+ }
+ footer a{
+    transition: color 0.4 ease;
+    color: #A6a092;
+    text-decoration: none;
+ }
+
+ footer a:hover{
+    color: azure;
  }
