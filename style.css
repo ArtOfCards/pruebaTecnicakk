@@ -271,6 +271,7 @@ p{
    position :relative;
    left: 150px;
    top:350px;
+   width: 300px;
  
 }
 
@@ -295,6 +296,37 @@ p{
 
 }
 
+/*-------------- historia 5 ---------------*/
+
+#tituloHistoria5{
+   position :relative;
+   left: 700px;
+   top:0px;
+   width: 500px;
+}
+
+#textoHistoria5{
+   font-size: 20px;
+   width: 500px;
+
+   position: relative;
+   right: 500px;
+   top: 200px;
+   float: right;
+   text-align: center;
+}
+
+#imgHistoria5{
+
+   width: 450px;
+   position: relative;
+   top: 275px;
+   left: 550px;
+
+}
+
+
+
  /*-------------------------------------------*/
 
 
@@ -306,11 +338,15 @@ p{
     background-color: #57544c;
     padding:3rem;
     color:beige;
-    top:900px;
+    top:400px;
  }
  footer div{
     float: right;
+    margin-left: auto;
+    flex: 0 0 auto;
+    width: 50%;
  }
+
  footer p{
     margin:0;
  }
