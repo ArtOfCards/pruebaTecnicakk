@@ -118,13 +118,13 @@ p{
 
     float: right;
     position :relative;
-    top: 520px;
+    top: 450px;
     right: 70px;
  }
  #recomendacion{
     float: right;
     position :relative;
-    top: 300px;
+    top: 330px;
     right: 100px;
     color:var(--color-secundario-oscuro);
     font-family: var(--fuente-texto);
@@ -134,6 +134,8 @@ p{
  /* fin video*/
 
  /* inicio historias*/
+
+ /*---------------- historia 1 ----------------------*/
  #imgHistoria1{
     position :relative;
     top: 0px;
@@ -143,7 +145,6 @@ p{
     width: 500px;
     height: 500px;
     
-
  }
 
  h3{
@@ -159,8 +160,6 @@ p{
     top:350px;
     margin: 0px;
     width: 200px;
-
-
  }
 
  #textoHistoria1{
@@ -184,6 +183,55 @@ p{
     left: 670px; 
     
  }
+ /*----------------- historia 2 ----------------*/
+ .historiaDerecha{
+   background:var(--color-primario-claro);
+   width: 450px;
+   height: 400px;
+   position: relative;
+   left: 150px;
+   top: 340px;
+
+
+ }
+
+ #tituloHistoria2{
+
+   position :relative;
+   left: 300px;
+   top:195px;
+   margin: 0px;
+   width: 200px;
+
+}
+
+#textoHistoria2{
+   font-size: 20px;
+   width: 600px;
+
+   border:0px;
+   position: relative;
+   left: 75px;
+   top: 0px;
+   border-style:hidden hidden solid hidden ;
+   text-align: center;
+
+
+}
+
+#imgHistoria2{
+
+   width: 600px;
+
+   float:right;
+   position: relative;
+   top: 145px;
+   right: 95px;
+
+
+}
+
+
 
  /*-------------------------------------------*/
 
@@ -192,9 +240,11 @@ p{
  /* footer */
 
  footer{
+   position: relative;
     background-color: #57544c;
     padding:3rem;
     color:beige;
+    top:900px;
  }
  footer div{
     float: right;
